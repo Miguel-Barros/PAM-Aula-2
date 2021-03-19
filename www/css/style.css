@@ -1,0 +1,22 @@
+.container {
+  padding: 35px;
+}
+
+.display{
+  margin-top: 40px;
+  height: 100px;
+  font-size: 50px;
+}
+
+.linha{
+  margin-top: 10px;
+}
+
+.linha button{
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+body {
+  background-color: #cccccc;
+}
