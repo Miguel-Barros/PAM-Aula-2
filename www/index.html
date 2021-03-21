@@ -23,14 +23,20 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="form-group">
-					<input type="text" class="form-control display" id="painel" value="0" readonly>
+          <div class="display-group">
+					  <input type="text" class="form-control display-group" id="calc" readonly>
+					  <input type="text" class="form-control display" id="painel" value="0" readonly>
+          </div>
 				</div>
 			</div>
 		</div>
 		<div class="row linha">
 
-			<div class="offset-6 col-6">
-				<button class="btn btn-secondary btn-block" id="ce">CE</button>
+			<div class="offset-6 col-3">
+				<button class="btn btn-secondary btn-block" id="c">C</button>
+			</div>
+			<div class="col-3">
+				<button class="btn btn-secondary btn-block" id="backspace">⌫</button>
 			</div>
 		</div>
 		<div class="row linha">
@@ -83,7 +89,7 @@
 				<button class="btn btn-primary btn-block" id="0">0</button>
 			</div>
 			<div class="col-3">
-				<button class="btn btn-primary btn-block" id="ponto">.</button>
+				<button class="btn btn-primary btn-block" id="virgula">,</button>
 			</div>
 			<div class="col-3">
 				<button class="btn btn-primary btn-block" id="resultado">=</button>
